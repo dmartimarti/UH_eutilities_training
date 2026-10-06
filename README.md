@@ -17,3 +17,9 @@ The repository link should be: https://github.com/dmartimarti/UH_eutilities_trai
 Alternatively, you can always access a session by clicking [here](https://mybinder.org/v2/gh/dmartimarti/UH_eutilities_training/HEAD)
 
 Let Binder build the site (it will take a bit), and then you should be able to access the Jupyter Notebook and a Linux terminal where to run your commands. 
+
+When using Binder, please be aware of the following **LIMITATIONS**:
+- **resources are limited**, you will get only 1 CPU and 2GB of RAM memory per session. Should be enough to run E-utilities commands.
+- **Inactivity** for 10-15 minutes will automatically **terminate** your session.
+- **Data** between sessions is **NOT stored**, so plan accordingly. 
+- NCBI has a limit of 3 requests/second. It is unlikely we hit that limit, but to minimise this limit please **don't run many cells at the same time**, only one by one
