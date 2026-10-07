@@ -2,6 +2,10 @@ name: edirect-env
 channels:
   - conda-forge
   - bioconda
-  - defaults
+  - nodefaults
 dependencies:
+  - python=3.10
   - entrez-direct
+  - ncbi-datasets-cli
+  - jq
+  - curl
